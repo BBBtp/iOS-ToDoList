@@ -1,0 +1,22 @@
+strings:
+  inputs:
+    - Resources/ru.lproj/Localizable.strings
+    - Resources/ru.lproj/Localizable.stringsdict
+  outputs:
+    - templateName: structured-swift5
+      params:
+        publicAccess: true
+        enumName: L
+      output: Generated/Strings+Generated.swift
+
+xcassets:
+  inputs:
+    - Resources/Icons.xcassets
+    - Resources/Colors.xcassets
+  outputs:
+    - templateName: swift5
+      params:
+        forceProvidesNamespaces: true
+        publicAccess: true
+        enumName: A
+      output: Generated/XCAssets+Generated.swift

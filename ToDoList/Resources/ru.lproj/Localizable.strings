@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  ToDoList
+
+  Created by Богдан Топорин on 29.01.2025.
+  
+*/
+"tasks_title" = "Tasks";
+"add_task" = "Add Task";
