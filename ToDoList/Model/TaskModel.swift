@@ -8,20 +8,34 @@
 import Foundation
 
 
-struct TaskModel {
+struct TaskModelResponse: Codable {
     var id: Int
-    var title: String?
-    var todo: String?
-    var createdAt: Date
-    var isCompleted: Bool
+    var todo: String
+    var completed: Bool
     var userId: Int
     
-    init(id: Int,title: String, todo: String, createdAt: Date, isCompleted: Bool, userId: Int) {
+    init(id: Int, todo: String, completed: Bool, userId: Int) {
+        self.id = id
+        self.todo = todo
+        self.completed = completed
+        self.userId = userId
+    }
+}
+
+struct TaskModel: Codable {
+    var id: Int
+    var title: String?
+    var todo: String
+    var completed: Bool
+    var userId: Int
+    var createdAt: String?
+    
+    init(id: Int,title: String?, todo: String, completed: Bool, userId: Int, createdAt: String?) {
         self.id = id
         self.title = title
         self.todo = todo
-        self.createdAt = createdAt
-        self.isCompleted = isCompleted
+        self.completed = completed
         self.userId = userId
+        self.createdAt = createdAt
     }
 }

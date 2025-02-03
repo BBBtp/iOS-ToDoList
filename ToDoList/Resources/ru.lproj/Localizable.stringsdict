@@ -15,15 +15,15 @@
 			<key>zero</key>
 			<string>задач</string>
 			<key>one</key>
-			<string>(%d) задача</string>
+			<string>%d задача</string>
 			<key>two</key>
-			<string>(%d) задачи</string>
+			<string>%d задачи</string>
 			<key>few</key>
-			<string>(%d) задач</string>
+			<string>%d задач</string>
 			<key>many</key>
-			<string>(%d) задач</string>
+			<string>%d задач</string>
 			<key>other</key>
-			<string>(%d) задач</string>
+			<string>%d задач</string>
 		</dict>
 	</dict>
 </dict>

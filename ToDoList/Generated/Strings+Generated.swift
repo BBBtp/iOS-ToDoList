@@ -17,6 +17,12 @@ public enum L {
   /// 
   ///   Created by Богдан Топорин on 29.01.2025.
   public static let tasksTitle = L.tr("Localizable", "tasks_title", fallback: "Tasks")
+  public static let edit = L.tr("Localizable", "edit", fallback: "Edit")
+  public static let delete = L.tr("Localizable", "delete", fallback: "Delete")
+  public static let share = L.tr("Localizable", "share", fallback: "Share")
+  public static let back = L.tr("Localizable", "back", fallback: "Back")
+  public static let search = L.tr("Localizable", "search", fallback: "Search task")
+  public static let empty = L.tr("Localizable", "empty", fallback: "Tasks not found")
   public enum Task {
     /// Plural format key: "%#@VARIABLE@"
     public static func myTasks(_ p1: Int) -> String {

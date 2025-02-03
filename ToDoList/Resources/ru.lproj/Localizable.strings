@@ -1,9 +1,14 @@
 /* 
   Localizable.strings
   ToDoList
-
   Created by Богдан Топорин on 29.01.2025.
   
 */
-"tasks_title" = "Tasks";
-"add_task" = "Add Task";
+"tasks_title" = "Задачи";
+"add_task" = "Добавить задачу";
+"edit" = "Редактировать";
+"delete" = "Удалить";
+"share" = "Поделиться";
+"back" = "Назад";
+"search" = "Поиск задачи";
+"empty" = "Задачи не найдены";

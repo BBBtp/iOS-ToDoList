@@ -15,13 +15,15 @@
 			<key>zero</key>
 			<string>task</string>
 			<key>one</key>
-			<string>(%d) task</string>
+			<string>%d task</string>
+			<key>two</key>
+			<string>%d tasks</string>
 			<key>few</key>
-			<string>(%d) tasks</string>
+			<string>%d tasks</string>
 			<key>many</key>
-			<string>(%d) tasks</string>
+			<string>%d tasks</string>
 			<key>other</key>
-			<string>(%d) tasks</string>
+			<string>%d tasks</string>
 		</dict>
 	</dict>
 </dict>

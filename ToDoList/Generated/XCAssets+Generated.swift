@@ -35,6 +35,8 @@ public enum A {
     public static let edit = ImageAsset(name: "edit")
     public static let export = ImageAsset(name: "export")
     public static let trash = ImageAsset(name: "trash")
+    public static let complete = ImageAsset(name: "complete")
+    public static let uncomplete = ImageAsset(name: "uncomplete")
   }
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
